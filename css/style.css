@@ -1,0 +1,400 @@
+/* Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.hidden {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+  font-size: 100%;
+}
+
+body {
+  background: linear-gradient(to right, #ffffff, #ffffff);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+span {
+  opacity: 0%;
+}
+
+/* Container */
+
+.container {
+  width: 100%;
+  float: left;
+  padding: 3% 4%;
+  text-align: center;
+}
+
+/* Header */
+
+.header {
+  width: 100%;
+  float: left;
+  padding: 3% 4%;
+}
+
+.logo {
+  width: 110px;
+  height: 110px;
+  float: left;
+  background: url(../assets/logo.png) center center;
+}
+
+.btn_menu {
+  width: 56px;
+  height: 56px;
+  float: right;
+  text-align: center;
+  margin-top: 20px;
+  color: #fff;
+  border-radius: 56px;
+  cursor: pointer;
+  background: linear-gradient(to right, #ec0404, #b41665);
+  /* #ec0404, #bbb0e6; */
+}
+
+/* Menu */
+
+.menu {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.9);
+  top: 0;
+  left: 0;
+}
+
+.btn_close {
+  font-size: 3.5em;
+  margin-top: 20px;
+  color: #ffffff;
+  float: right;
+  cursor: pointer;
+  margin-right: 5%;
+}
+
+.menu ul {
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+
+.menu li {
+  margin-top: 2.5rem;
+  padding: 1.5%;
+}
+
+.menu li a {
+  font-size: 2em;
+  color: #fff;
+  padding: 1.5% 3%;
+}
+
+.menu li a:hover {
+  border-radius: 100px;
+  border: 1px solid #bbb0e6;
+}
+
+/* FIM HEADER */
+
+/* Banner */
+
+.banner {
+  background: url(../assets/banner.jpeg) top;
+}
+
+.title h2 {
+  font-size: 2.5rem;
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+}
+
+.title {
+  width: 100%;
+}
+
+.title h3 {
+  margin-top: 10px;
+  font-size: 1.5em;
+  color: rgb(0, 0, 0);
+}
+
+.buttons {
+  width: 100%;
+}
+
+.btn {
+  width: 80%;
+  font-size: 1.5em;
+  text-align: center;
+  cursor: pointer;
+  padding: 5%;
+  border-radius: 10px;
+}
+
+.btn_entrar {
+  background-color: #ffffff;
+  color: #130400;
+  margin-top: 10px;
+}
+
+.btn_registrar {
+  background-color: #130400;
+  color: #ffffff;
+  margin-top: 30px;
+}
+
+/* FIM BANNER */
+
+.nome_som {
+  font-size: 2.5em;
+  margin-top: 10px;
+  font-weight: 700;
+  text-align: center;
+}
+
+/* Card */
+
+.container_card {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.card {
+  border: #130400;
+  border-radius: 25px 15px 0 0;
+  margin-bottom: 15px;
+  width: 270px;
+  height: 400px;
+  margin: 10px;
+}
+
+.card:hover {
+  background: linear-gradient(to right, #ec0404, #b41665);
+  color: white;
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: all 0.7s ease;
+}
+
+iframe {
+  height: 330px;
+  margin-top: 30px;
+  padding-bottom: 20px;
+}
+
+/* Fim Card */
+
+/* Servicos */
+
+.servicos {
+  margin-top: 2.5em;
+}
+
+.servico {
+  width: 100%;
+  background-color: #fff;
+  text-align: left;
+  border-radius: 7px;
+  margin-bottom: 3%;
+}
+
+.servico img {
+  border-radius: 9px 9px 0;
+}
+
+.inner {
+  padding: 7%;
+  justify-content: center;
+}
+
+.btn_registrar2 {
+  background-color: #130400;
+  color: #ffffff;
+  margin-top: 30px;
+  margin-left: 10%;
+}
+
+h4 {
+  font-size: 2em;
+  font-weight: 900;
+  color: #130400;
+}
+
+/* fIM SERVICO */
+
+/* footer */
+
+.footer {
+  bottom: 0%;
+  margin-top: 2.5em;
+  background: linear-gradient(to right, #ec0404, #b41665);
+}
+
+.social_icons a {
+  font-size: 1.5em;
+  color: rgba(255, 255, 255, 0.7);
+  margin-right: 3%;
+}
+
+.social_icons a:last-child {
+  margin-right: 0;
+}
+
+.social_icons a:hover {
+  color: rgba(255, 255, 255);
+}
+
+.copyright {
+  margin-top: 2%;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* MEDIA TYPE */
+
+/* desktop */
+
+@media screen and (min-width: 960px) {
+  /* Banner */
+  .title {
+    width: 70%;
+    float: left;
+    text-align: center;
+  }
+
+  .title h2 {
+    font-size: 3em;
+  }
+
+  .title h3 {
+    font-size: 2em;
+  }
+
+
+  .buttons {
+    width: 30%;
+    float: right;
+    margin-top: 0;
+  }
+
+  .servico {
+    width: 80%;
+    margin-left: 15%;
+  }
+
+  .servico img{
+    margin-left: 5%;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .servico img {
+    margin-left: 15%;
+  }
+
+  .title {
+    text-align: center;
+  }
+
+  .servico {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .inner {
+    text-align: center;
+  }
+
+  .btn_registrar2 {
+    margin-top: 40px;
+    margin-right: 5%;
+    text-align: center;
+  }
+
+  .card {
+    border: #130400;
+    border-radius: 25px 15px 0 0;
+    margin-bottom: 25px;
+    width: 370px;
+    height: 430px;
+    margin: 10px;
+  }
+
+  iframe {
+    height: 400px;
+    margin-top: 30px;
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 1660px) {
+  .servico img {
+    margin-left: 15%;
+  }
+
+  .card {
+    border: #130400;
+    border-radius: 25px 15px 0 0;
+    margin-bottom: 25px;
+    width: 550px;
+    height: 430px;
+    margin: 20px;
+  }
+
+  iframe {
+    width: 550;
+    height: 400px;
+    margin-top: 30px;
+    padding-bottom: 20px;
+  }
+}
+
+
+@media screen and (min-width: 1880px) {
+  .servico img {
+    margin-left: 22%;
+  }
+
+  .card {
+    border: #130400;
+    border-radius: 25px 15px 0 0;
+    margin-bottom: 25px;
+    width: 590px;
+    height: 430px;
+    margin: 30px;
+  }
+
+  iframe {
+    width: 590px;
+    height: 400px;
+    margin-top: 30px;
+    padding-bottom: 20px;
+  }
+}

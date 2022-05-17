@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recuperar a Senha</title>
+    <link rel="stylesheet" href="css/style_forget.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/d907954613.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/index.js"></script>
+  </head> 
+  <body>
+    <!-- Comeco Header -->
+    <header class="header">
+      <a href="index.html">
+        <h1 class="logo"></h1>
+      </a>
+
+      <button class="btn_menu"><i class="fas fa-bars fa-lg"></i></button>
+      <nav class="menu hidden">
+        <a class="btn_close"><i class="fa-solid fa-circle-xmark"></i></a>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="#">Buscar</a></li>
+          <li><a href="#">Biblioteca</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- FIM HEADER -->
+    <h1>Recupere sua Senha</h1>
+    <div class="alternative">
+      <span></span>
+    </div>
+
+    <form id="form-recuperar">
+      <label for="email">
+        <span>Email</span>
+        <input type="email" id="email" name="email" required />
+      </label>
+      <button type="button" onclick="enviar()">Enviar</button>
+    </form>
+
+    <section class="images">
+      <div class="circle"></div>
+    </section>
+  </div>
+    <!-- Footer -->
+
+    <footer class="footer container">
+      <div class="social_icons">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+      </div>
+      <p class="copyright">
+        Copyright @ Songuitos 2022. Todos os direitos reservados.
+      </p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="/js/script.js"></script>
+  </body>
+</html>
